@@ -6,6 +6,7 @@ import Image from 'next/image';
 
 export default function Home() {
   const { data: session } = useSession();
+  console.log("✅ page.tsx loaded");
 
   return (
     <Container maxWidth="sm" sx={{ mt: 10, textAlign: 'center' }}>
